@@ -168,13 +168,15 @@ input[type="checkbox"]{
 
 }
 
-.portf{                /* placeholder text  */
+.portf{
   text-align: center;
-  font-size: small;
+  font-size:8px;
   color: floralwhite;
 
 
 }
+
+
 }
 
 
@@ -190,6 +192,29 @@ input[type="checkbox"]{
     background-position:  center;
 
    }
+
+
+
+/*CSS for index.html welcome text*/
+
+
+.welc{
+  color: white;  
+  font-size: 40px;
+  padding-top: 16%;
+  padding-left: 450px;
+  text-align: left;
+    
+}
+
+@media (max-width: 920px) {
+.welc{
+  font-size: 20px;
+  padding-top: 60%;
+  padding-left: 60px;
+  text-align: left;
+}
+}
 
 
 
