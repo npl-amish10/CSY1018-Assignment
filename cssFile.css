@@ -181,7 +181,7 @@ input[type="checkbox"]{
 
 
 
-.bodyPortf{                             /*blog,contact,portfolio and home background  */
+.bodyPortf{                             /*background image for all pages*/
 
     background: url(images/img1.jpg);
     width: 100%;
@@ -209,20 +209,74 @@ input[type="checkbox"]{
 
 @media (max-width: 920px) {
 .welc{
-  font-size: 20px;
+  font-size: 25px;
   padding-top: 60%;
   padding-left: 60px;
   text-align: left;
 }
 }
 
+/*CSS for blog.html*/
+
+.bl {
+  text-align: center;
+  padding-top: 2%;
+}
 
 
 
 
+.columns{
+  padding-top:3% ;
+  display: flex;
+  flex-flow:row wrap ;
+  justify-content: center;
+  margin: 5px 0;
+  padding-left: 10px;
+  padding-right: 10px;
 
 
+}
 
 
+.column{
+  flex: 1;
+  border:1px solid #666 ;
+  margin: 2px;
+  padding: 10px;
+}
+
+.column:first-child{
+margin-left: 0;
+}
+.column:last-child{
+  margin-left: 0;
+}
+@media screen and (max-width: 920px)
+{
+
+  .columns .column{
+    margin-bottom: 5px;
+    flex-basis: 40%;
+
+}
+.columns .column:last-child{
+  flex-basis: 100%;
+  margin: 0;
   
+}
+.columns .column:nth-last-child(2){
+  margin-right: 0;
+}
+}
+@media screen and (max-width: 680px)
+{
 
+  .columns .column{
+    margin:0 0 5px 0;
+    flex-basis: 100%;
+
+}
+
+
+}
