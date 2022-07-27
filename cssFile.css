@@ -205,9 +205,9 @@ input[type="checkbox"]{
     background-attachment: fixed;
     background-position:  center;
 
-   }
+ }
 
-.bodyBlog{                             /*background image for portfolio and home page*/
+.bodyBlog{                             /*background image for blog.html*/
 
     background: url(images/blogBckg.jpg);
     width: 100%;
@@ -217,7 +217,18 @@ input[type="checkbox"]{
     background-attachment: fixed;
     background-position:  center;
 
-   }
+ }
+.cont{                             /*background image for contact.html*/
+
+    background: url(images/contBg.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:  center;
+
+ }
 
 
 
