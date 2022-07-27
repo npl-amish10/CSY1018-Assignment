@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
 
 
 *{
@@ -321,4 +322,41 @@ margin-left: 0;
 }
 
 
+}
+
+
+
+
+/*CSS for contact.html*/
+
+
+.contactForm {
+  text-align: center;
+  color: whitesmoke;
+  font-weight: 800;
+   font-family: 'Open Sans', sans-serif;
+  text-shadow: -1px 1px 2px #000,
+          1px 1px 2px #000,
+          1px -1px 0 #000,
+          -1px -1px 0 #000;
+}
+
+
+#firstNm{
+  opacity: 75%;
+}
+
+#lastnm{
+  opacity: 75%;
+}
+
+#eml{
+  opacity: 75%;
+}
+
+#phone{
+  opacity: 75%;
+}
+#msg{
+  opacity: 75%;
 }
