@@ -9,6 +9,7 @@
 body{
   font-family: 'Poppins', sans-serif;
 }
+/* CSS for Navigation bar*/
 nav{
   display: flex;
   height: 60px;
@@ -142,13 +143,25 @@ input[type="checkbox"]{
   width:300px;
 }
 
-.portf{
+
+.img:hover {        /*CSS for on moving mouse cursor to dummy image */
+      color: white;
+      background: black;
+      box-shadow: 0 0 100px white;
+}
+
+
+
+
+
+.portf{                     /*CSS for portfolio upper text */
   text-align: center;
   font-size: small;
   color: floralwhite;
 
 
 }
+
 
 
 /*media query of portfolio.html */
