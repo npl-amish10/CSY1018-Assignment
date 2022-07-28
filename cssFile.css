@@ -344,23 +344,23 @@ margin-left: 0;
 
  /*CSS for decreasing text area opacity */
 #fname{
-  opacity: 75%;
+  
   width: 450px;
 }
 
 #lname{
-  opacity: 75%;
+
   width: 450px;
 }
 
 #contact{
-  opacity: 75%;
+
   width: 450px;
 }
 
 
 #msg{
-  opacity: 75%;
+ 
   width: 450px;
   height: 125px;
 }
@@ -378,3 +378,28 @@ margin-left: 0;
 
 
 
+@media screen and (max-width: 920px)
+{
+#fname{
+  
+  width: 200px;
+}
+
+#lname{
+  
+  width: 200px;
+}
+
+#contact{
+ 
+  width: 200px;
+}
+
+
+#msg{
+  
+  width: 200px;
+  height: 125px;
+}
+  
+}
