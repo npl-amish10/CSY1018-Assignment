@@ -136,6 +136,10 @@ input[type="checkbox"]{
 
 
 
+.btn:hover {
+   
+    box-shadow: 1px 1.5px 11px 2px white ;
+}
 
 
 
