@@ -448,7 +448,13 @@ margin-left: 0;
 }
 
 
-
+.bt{
+  text-decoration: none;
+  color: #fbff16;;
+  font-weight: 800;
+   font-family: 'Open Sans', sans-serif;
+ text-shadow: 9px 13px 20px #000, -2px 1px 2px #000, 2px 1px 0 #000, -1px -1px 0 #000;
+}
 
 
 
