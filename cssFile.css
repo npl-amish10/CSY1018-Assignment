@@ -71,7 +71,7 @@ input[type="checkbox"]{
     display: block;
   }
   #click:checked ~ .menu-btn i:before{
-    content: "\f00d";
+    content: "\f00d";  /*font code for close menu in mobile view*/
   }
   nav ul{
     position: fixed;
@@ -451,7 +451,8 @@ margin-left: 0;
 }
 
 
-.bt{
+.bt{               
+/*CSS for button */
   text-decoration: none;
   color: #fbff16;;
   font-weight: 800;
@@ -468,17 +469,24 @@ margin-left: 0;
 
 .hd{
   text-align: center;
+  animation: color-change 10s infinite;
 }
+
+.h{
+  text-align: center;
+}
+
 
 
 .hd{
-  animation: color-change 1s infinite;
+  text-align: center;
+  animation: color-change 5s infinite;
 }
 
 @keyframes color-change {
-  0% { color: red; }
-  50% { color: blue; }
-  100% { color: black; }
+  0% { color: black; }
+  50% { color: darkblue; }
+  100% { color: red; }
 }
 
 .intro{
@@ -506,4 +514,35 @@ margin-left: 0;
 .val{
   padding-left: 15px;
   padding-right: 15px;
+}
+.progImg{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.pIm{
+  width: 450px;
+  height: 250px;
+}
+
+
+
+@media screen and (max-width: 680px) 
+/*CSS for making site report responsive, Here font size of reference section is decreased to avoid issue in mobile devices and picture size is also decreased.*/
+{
+
+  .ref{
+    
+    font-size: 12px;
+
+}
+
+.pIm{
+  width: 200px;
+  height: 250px;
+}
+.vl{
+  width: 300px;
+  height: 500px;
+}
+
 }
