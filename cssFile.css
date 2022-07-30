@@ -110,8 +110,11 @@ input[type="checkbox"]{
 
 
 
-
+ 
 }
+/* CSS for nav bar ends here*/
+
+
 
 /* CSS for contact me button on home page*/
 
@@ -303,7 +306,7 @@ input[type="checkbox"]{
 }
 
 
-
+/*CSS for blog.html using flex property*/
 
 .columns{
   padding-top:3% ;
@@ -458,3 +461,49 @@ margin-left: 0;
 
 
 
+
+
+
+/*CSS for aligning all headings in report section to center */
+
+.hd{
+  text-align: center;
+}
+
+
+.hd{
+  animation: color-change 1s infinite;
+}
+
+@keyframes color-change {
+  0% { color: red; }
+  50% { color: blue; }
+  100% { color: black; }
+}
+
+.intro{
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+
+.list{
+    padding-left: 22px;
+    padding-right: 22px;
+}
+.design{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.exp{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.ref{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.val{
+  padding-left: 15px;
+  padding-right: 15px;
+}
